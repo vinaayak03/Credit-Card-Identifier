@@ -1,0 +1,13 @@
+Luhn's Algorithm, invented by Hans Peter Luhn, is a simple checksum formula used to validate various identification numbers, especially credit card numbers. The algorithm works as follows:
+
+
+
+Starting from the rightmost digit (the check digit), double the value of every second digit.
+
+If doubling the digit results in a number greater than 9, subtract 9 from the result.
+
+Sum all the digits together, including those that were not doubled.
+
+If the total modulo 10 is equal to 0, the number is considered valid.
+
+This method is widely used because it provides a quick way to verify the correctness of identification numbers, helping to catch common data entry errors.
